@@ -1,0 +1,24 @@
+{35={apple=8}}
+{38={apple=8}}
+{30={apple=8}}
+{31={apple=8}}
+{29={apple=8}}
+{33={apple=8}}
+{27={apple=8}}
+{37={apple=8}}
+{34={apple=8}}
+{36={apple=8}}
+{28={apple=8}}
+{32={apple=8}}
+�2025-01-07 22:19:54 [pool-2-thread-9] INFO  PurchaseServiceSynchronizedTest - Thread 35 주문 정보 : 1건 [8] : 남은 수량 4
+�2025-01-07 22:19:54 [pool-2-thread-6] INFO  PurchaseServiceSynchronizedTest - Thread 32 주문 정보 : 1건 [8] : 남은 수량 4
+�2025-01-07 22:19:54 [pool-2-thread-10] INFO  PurchaseServiceSynchronizedTest - Thread 36 주문 정보 : 1건 [8] : 남은 수량 4
+�2025-01-07 22:19:54 [pool-2-thread-12] INFO  PurchaseServiceSynchronizedTest - Thread 38 주문 정보 : 1건 [8] : 남은 수량 4
+�2025-01-07 22:19:54 [pool-2-thread-11] INFO  PurchaseServiceSynchronizedTest - Thread 37 주문 정보 : 1건 [8] : 남은 수량 4
+�2025-01-07 22:19:54 [pool-2-thread-3] INFO  PurchaseServiceSynchronizedTest - Thread 29 주문 정보 : 1건 [8] : 남은 수량 4
+�2025-01-07 22:19:54 [pool-2-thread-5] INFO  PurchaseServiceSynchronizedTest - Thread 31 주문 정보 : 1건 [8] : 남은 수량 4
+�2025-01-07 22:19:54 [pool-2-thread-1] INFO  PurchaseServiceSynchronizedTest - Thread 27 주문 정보 : 1건 [8] : 남은 수량 4
+�2025-01-07 22:19:54 [pool-2-thread-4] INFO  PurchaseServiceSynchronizedTest - Thread 30 주문 정보 : 1건 [8] : 남은 수량 4
+�2025-01-07 22:19:54 [pool-2-thread-2] INFO  PurchaseServiceSynchronizedTest - Thread 28 주문 정보 : 1건 [8] : 남은 수량 4
+�2025-01-07 22:19:54 [pool-2-thread-7] INFO  PurchaseServiceSynchronizedTest - Thread 33 주문 정보 : 1건 [8] : 남은 수량 4
+�2025-01-07 22:19:54 [pool-2-thread-8] INFO  PurchaseServiceSynchronizedTest - Thread 34 주문 정보 : 1건 [8] : 남은 수량 4

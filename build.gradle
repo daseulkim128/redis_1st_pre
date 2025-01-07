@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.28'
+    annotationProcessor 'org.projectlombok:lombok:1.18.28'
+    testCompileOnly 'org.projectlombok:lombok:1.18.28'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.28'
+
+    // JUnit API
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    // JUnit 실행 엔진
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+
+    // Optional: JUnit BOM으로 버전 관리
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+
+    // Log4j Core와 API 의존성 추가
+    implementation 'org.apache.logging.log4j:log4j-api:2.20.0'
+    implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
+
+    // (Optional) 로그를 파일이 아닌 콘솔에 출력할 경우
+    implementation 'org.apache.logging.log4j:log4j-jul:2.20.0'
+}
+
+test {
+    useJUnitPlatform()
+}
